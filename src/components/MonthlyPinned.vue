@@ -123,21 +123,7 @@ export default {
     name: 'MonthlyPinned',
 
     data: () => ({
-        //    alignments: [
-        //        'start',
-        //        'center',
-        //        'end',
-        //    ],
-        // admins: [
-        //     ['Management', 'mdi-account-multiple-outline'],
-        //     ['Settings', 'mdi-cog-outline'],
-        // ],
-        // cruds: [
-        //     ['Create', 'mdi-plus-outline'],
-        //     ['Read', 'mdi-file-outline'],
-        //     ['Update', 'mdi-update'],
-        //     ['Delete', 'mdi-delete'],
-        // ],
+       
     }),
 }
 </script>

@@ -9,8 +9,6 @@
                     </v-list-item-title>
                     <v-list-item-subtitle class="font-weight-light caption">June 14th, 2022</v-list-item-subtitle>
                 </v-list-item-content>
-                <!-- <p class="font-weight-bold" >Today's Plan</p>
-                <p class="font-weight-light caption pb-2">June 14th, 2022</p> -->
             </v-col>
             <v-btn fab dark small class="mt-5">
                 <v-icon dark>
@@ -50,13 +48,10 @@
                         <v-list-item-subtitle class="font-weight-light caption">13:30 - 14:00</v-list-item-subtitle>
                     </v-list-item-content>
                     </v-row>
-                    
-                    <!-- <p class="font-weight-bold">Medi Team Meating</p>
-                <p class="font-weight-light caption pb-2">13:30 - 14:00</p> -->
+
                 </v-col>
             </v-row>
 
-            <!-- Variable amount more avatars -->
         </div>
         <v-card class="mx-auto pa-1 mt-6" max-width="365" outlined>
             <v-list-item three-line>
@@ -109,21 +104,7 @@ export default {
     name: 'TodayPlan',
 
     data: () => ({
-        //    alignments: [
-        //        'start',
-        //        'center',
-        //        'end',
-        //    ],
-        // admins: [
-        //     ['Management', 'mdi-account-multiple-outline'],
-        //     ['Settings', 'mdi-cog-outline'],
-        // ],
-        // cruds: [
-        //     ['Create', 'mdi-plus-outline'],
-        //     ['Read', 'mdi-file-outline'],
-        //     ['Update', 'mdi-update'],
-        //     ['Delete', 'mdi-delete'],
-        // ],
+    
     }),
 }
 </script>
@@ -147,10 +128,7 @@ export default {
 
 .avatars {
     direction: ltr;
-    /* This is to get the stack with left on top */
     text-align: left;
-    /* Now need to explitly align left */
     padding-left: 35px;
-    /* Same value as the negative margin */
 }
 </style>
